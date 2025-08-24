@@ -1,20 +1,38 @@
-h2 {
-    color: rgb(255, 0, 25);
+h1 {
+    color: white;
     font-style: italic;
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: overline;
     font-size: 80px;
 }
-.heading-parent{
-    background-color: rgb(101, 90, 82);
-    height: 600px;
+#heading-parent{
+    background-image: linear-gradient(0deg,#7e1656,transparent), url(../assets/hero.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
     padding: 100px 0;
     text-align: center;
-    width: 1100px;
+    max-width: 1100px;
     /*  margin-top: 40px;*/ 
     /* margin-bottom: 10px; */
     /* margin-left: auto; */
     /* margin-right: auto; */
     margin: 30px auto;
+}
+.btn-parent{
+    text-align: center;
+    
+    margin: 20px 0;
+}
+.btn{
+    background-color: rgb(137, 41, 182);
+    padding: 8px 15px;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 24px;
 }
